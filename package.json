@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.26.1",
+    "@sveltejs/vite-plugin-svelte": "^1.0.8",
     "@testing-library/dom": "^8.17.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@vitejs/plugin-react": "^2.1.0",
@@ -26,6 +27,7 @@
     "vitest-github-actions-reporter-temp": "^0.8.3"
   },
   "dependencies": {
+    "@preact/signals-react": "^1.1.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3"
   }

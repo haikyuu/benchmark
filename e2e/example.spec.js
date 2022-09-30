@@ -22,3 +22,6 @@ test('Imba 500 clicks', async ({ page }) => {
 test('React 500 clicks', async ({ page }) => {
   await runTest(page, "react")
 });
+test('Svelte 500 clicks', async ({ page }) => {
+  await runTest(page, "svelte")
+});

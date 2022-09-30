@@ -1,12 +1,17 @@
 .item{
-	display: block;
+	/* display: block; */
     width: 6rem;
     height: 4rem;
-    background: coral;
     margin: 1rem
+}
+.react{
+	background: coral;
 }
 .imba{
 	background-color: aquamarine;
+}
+.svelte{
+	background-color: lightblue;
 }
 #app{
 	display: flex;
@@ -15,7 +20,7 @@
 }
 .container{
 	display: grid;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: repeat(4, 1fr);
   	gap: 0
 }
 h1{

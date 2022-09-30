@@ -1,9 +1,10 @@
-import "./main.imba"
+import "./App.imba"
 import "./main.jsx"
 
-// if(import.meta.env.VITE_TECH == "imba"){
-// 	import("./main.imba")
-// }else{
-// 	import("./main.jsx")
-// }
+import App from './App.svelte'
 
+const app = new App({
+  target: document.getElementById('svelte')
+})
+
+export default app
