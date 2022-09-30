@@ -1,4 +1,4 @@
-const mult = 1
+let mult = 1
 const items = Array.from(Array(10000).keys())
 tag App
 	def render
